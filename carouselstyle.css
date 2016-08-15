@@ -1,0 +1,26 @@
+.carousel-inner > .item > img {
+      width: 70%;
+      margin: auto;
+  }
+
+.container {
+	text-align: center;
+
+.carousel {
+	width: 800px;
+	height: 400px;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	width: 2000px;
+}
+
+li {
+	width: 800px
+	height: 400px;
+	list-style: none;
+	float: left;
+}

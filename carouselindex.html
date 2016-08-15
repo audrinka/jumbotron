@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="carouselstyle.css">
+	<script src="carouselscript.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+   			<ul class="carousel-indicators">
+      			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			    <li data-target="#myCarousel" data-slide-to="3"></li>
+			    <li data-target="#myCarousel" data-slide-to=""></li>
+			</ul>
+    		<div class="carousel-inner" role="listbox">
+    			<div class="item active example-1">
+    				<img src="http://loremflickr.com/g/800/400/brazil,rio">
+    			</div>
+    			<div class="item example-2">
+    				<img src="http://loremflickr.com/p/800/400/brazil,rio">
+    			</div>
+    			<div class="item example-3">
+    				<img src="http://loremflickr.com/green/800/400/brazil,rio">
+    			</div>
+    			<div class="item example-4">
+    				<img src="http://loremflickr.com/red/800/400/brazil,rio">
+    			</div>
+    			<div class="item example-5">
+    				<img src="http://loremflickr.com/800/400/brazil,rio">
+    			</div>
+    		</div>
+    		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      			<span class="sr-only">Wstecz</span>
+    		</a>
+    		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      			<span class="sr-only">Dalej</span>
+    		</a>
+  		</div>
+	</div>
+</body>
+</html>
